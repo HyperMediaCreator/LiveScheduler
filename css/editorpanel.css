@@ -1,0 +1,177 @@
+/* EditorPanel */
+#editorPanel {
+    background:#e3e8e8;
+    position: fixed;
+    width:400px;
+    height:300px;
+    margin:auto;
+    top:0px;
+    right:0px;
+    bottom:400px;
+    left:0px;
+    display:none;
+    /*     display:block; */
+/* EditorPanel > INPUT */
+    /*     background-image: linear-gradient(to bottom,#CDDC39 0,#419641 100%); */
+    background-image: linear-gradient(to bottom,#CDDC39 0,#00BCD4 100%);
+    background-image: linear-gradient(to bottom,#F44336 0,#FFC107 100%);
+    background-repeat: repeat-x;
+    border-color: #3e8f3e;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+    /*     box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075); */
+    /*     box-shadow:aqua; */
+    color: #fff;
+    background-color: #5cb85c;
+    cursor: pointer;
+    font-weight: 400;
+    border: 1px solid transparent;
+    font-size: 14px;
+    border-radius: 20px;
+    /*     font-family: "abelregular"; */
+    -webkit-font-smoothing: antialiased;
+
+    /* box-shadow */
+    box-shadow:13px 0px 34px 8px rgba(44,69,12,0.24);
+    -moz-box-shadow:13px 0px 34px 8px rgba(44,69,12,0.24);
+    -webkit-box-shadow:13px 0px 34px 8px rgba(44,69,12,0.24);
+}
+/* EditorPanel > STATUS */
+#editorPanel .sts_lst {
+    position:absolute;
+    top:20px;
+    right:0px;
+}
+/* EditorPanel > LABEL */
+#editorPanel .row {
+    margin:2px;
+}
+#editorPanel .row:nth-child(1) {
+    text-align:center;
+}
+#editorPanel {
+    font-family:consolas;
+}
+#editorPanel label.title {
+    width:30px;
+    margin:5px;
+    margin-top:0px;
+    display:inline-block;
+    text-align:right;
+}
+
+#editorPanel label.content {
+    width:50px;
+    display:inline-block;
+    text-align:right;
+    margin:5px;
+}
+#editorPanel label.dt {
+    width:39px;
+    margin-left:2px;
+    margin-right:2px;
+    display:inline-block;
+}
+/* EditorPanel > INPUT */
+#editorPanel input.ttle {
+    display:block;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:auto;
+    margin-right:auto;
+    width:330px;
+    padding:3px;
+    font-family:meiryo;
+    font-size:20px;
+    text-align:center;
+/*     line-height:1em; */
+}
+#editorPanel textarea.cont {
+    display:block;
+/*     margin-top:0px; */
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+    width:330px;
+/*     padding:3px; */
+    height:30px;
+    height:4em;
+    font-family:meiryo;
+    line-height:1.1em;
+}
+/* EditorPanel > INPUT */
+ #editorPanel input.start_dt
+,#editorPanel input.limit_dt
+,#editorPanel input.do_at
+,#editorPanel input.done_at {
+    width:150;
+    padding:2px;
+    text-align:center;
+    font-size:15px;
+    font-family:consolas;
+    font-weight:bold;
+}
+/* EditorPanel > BUTTON */
+ #editorPanel input[type=button].ok
+,#editorPanel input[type=button].cancel{
+    position:absolute;
+    width:200px;
+    height:30px;
+    bottom:0px;
+}
+#editorPanel input[type=button].ok{
+    left:0px; 
+    background-image: linear-gradient(to bottom,#5cb85c 0,#419641 100%);
+    background-repeat: repeat-x;
+    border-color: #3e8f3e;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
+    color: #fff;
+    background-color: #5cb85c;
+    cursor: pointer;
+    font-weight: 400;
+    border: 1px solid transparent;
+    font-size: 14px;
+    border-radius: 20px;
+/*     font-family: "abelregular"; */
+    -webkit-font-smoothing: antialiased;
+}
+#editorPanel input[type=button].cancel{ 
+    right:0px; 
+    background-image: linear-gradient(to bottom,#428bca 0,#2d6ca2 100%);
+    background-repeat: repeat-x;
+    border-color: #2b669a;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
+    color: #fff;
+    background-color: #428bca;
+    cursor: pointer;
+    font-weight: 400;
+    border: 1px solid transparent;
+    font-size: 14px;
+    border-radius: 20px;
+/*     font-family: "abelregular"; */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* editorPanel > STATUS */
+#editorPanel #status_field {
+    position:absolute;
+    top:0px;
+    right:0px;
+    width:76px;
+    padding:5px;
+}
+#status_field input {
+    position:relative;
+    width:15px;
+    top:6px;
+    margin:2px;
+    height:20px;
+}
+#status_field label{
+    position:relative;
+    display:block;
+    font-family:monospace;
+    font-weight:bold;
+    font-size:midium;
+}

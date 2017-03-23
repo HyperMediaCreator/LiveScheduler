@@ -1,0 +1,62 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+
+#disp{
+    text-align:center;
+    background:navy;
+    height:30px;
+    color:white;
+    font-size:30px;
+}
+
+/* FADE DARKEN */
+/*https://www.ipentec.com/document/document.aspx?page=css-screen-fade*/
+#fadeLayer {
+    position: fixed;
+    z-index: -1;
+    background: #000000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: alpha(opacity=0);
+    opacity: 0.0;
+    display: none;
+}
+
+
+/* TASKS AREA */
+#tasks td {
+    font-family:meiryo;
+    font-weight:bold;
+    font-size:12px;
+}
+#tasks col.dt {
+    width:100px;
+    overflow:hidden;
+}
+ #tasks td.inst
+,#tasks td.manP
+,#tasks td.remain
+,#tasks td.start
+,#tasks td.limit
+,#tasks td.do
+,#tasks td.done {
+    text-align:center;
+    padding:0px;
+}
+#tasks .tr0 {
+    display:none;
+}
+
+th{
+    font-family:consolas,meiryo;
+    font-size:13px;
+    color:white;
+    font-weight:lighter;
+    background:#4e4e4e;
+    border-left:dashed 1px gray;
+    border-top:solid 1px gray;
+}
